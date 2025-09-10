@@ -1,0 +1,70 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+html {
+  font-family: Helvetica, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  background-color: burlywood;
+}
+
+h1 {
+  color: #fff;
+  font-size: 2.5rem;
+}
+
+#grid-container {
+  width: 350px;
+  height: 350px;
+  border: 1px solid black;
+}
+
+.controller {
+  display: flex;
+  gap: 1.5rem;
+  
+  i {
+    color: #252525;
+    font-size: 1.5rem;
+    font-weight: bold;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    border-radius: 1.2rem;
+    box-shadow: 1px 1px 2px 1px #25252578;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+
+  #left {
+    background-color:  cadetblue;
+  }
+
+  #reset {
+    background-color: coral;
+  }
+
+  #right {
+    background-color: purple;
+  }
+}
+
+
+
